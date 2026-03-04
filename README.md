@@ -25,12 +25,10 @@ CME_FINAL/
 
 ## Data Requirements
 
-Place the following CSV files in the Data directory:
-
 | File | Description |
 |---|---|
-| `ICME_complete_dataset_rev.csv` | ICME observational catalog |
-| `0_results_100_best.csv` | Pre-computed neural network results (visualization only) |
+| `Data/ICME_complete_dataset_rev.csv` | ICME observational catalog |
+| `Results/0_results_100_best.csv` | Pre-computed neural network results (visualization only) |
 
 ---
 
@@ -42,7 +40,7 @@ Place the following CSV files in the Data directory:
 python run_optimization.py
 ```
 
-Reads the two CSV files, classifies events into the 6 propagation cases,
+Reads the CSV file, classifies events into the 6 propagation cases,
 and solves the analytical drag-based model equation for each event to find
 the optimal acceleration parameter *a*.
 
