@@ -31,6 +31,15 @@ CME_FINAL/
 | `Results/final_results.csv` | Pre-computed neural network results (visualization only) |
 
 ---
+### Data Sources
+
+The ICME dataset used in this project is based on the catalog presented in **Napoletano et al. (2022)**  
+(https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021SW002925), which combines events from the Richardson & Cane ICME list and the SOHO/LASCO CME catalog.  
+It includes parameters relevant for drag-based CME models, such as initial speed, arrival speed, travel time, angular width, and CME mass.
+
+Background solar wind speed and density follow the values adopted in **Guastavino et al. (2023)**  
+(https://iopscience.iop.org/article/10.3847/1538-4357/ace62d/meta), derived from CELIAS measurements.  
+These values are used to classify CME events into different EDBM regimes.
 
 ## How to Run
 
@@ -82,3 +91,16 @@ tensorflow==2.12.0
 matplotlib
 seaborn
 ```
+
+---
+
+## Citation
+
+If you use this code or the associated methodology in your research, please cite the following works:
+
+* **Lampani et al.** – *Neural-network CME transit time prediction using the Extended Drag-Based Model (EDBM)*
+  https://arxiv.org/abs/2512.19492
+
+* **Rossi et al. (2025)** – *Physics-informed drag-based modeling of CME propagation*
+  https://www.aanda.org/articles/aa/full_html/2025/02/aa52288-24/aa52288-24.html
+
