@@ -41,6 +41,8 @@ Background solar wind speed and density follow the values adopted in **Guastavin
 (https://iopscience.iop.org/article/10.3847/1538-4357/ace62d/meta), derived from CELIAS measurements.  
 These values are used to classify CME events into different EDBM regimes.
 
+The list of the 41 events studied in the Cross-wind (↘) case is reported in the following table.
+
 <div style="overflow-x: auto;">
 
 <table>
