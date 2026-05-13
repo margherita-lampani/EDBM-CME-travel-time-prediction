@@ -163,9 +163,9 @@ seaborn
 
 If you use this code or the associated methodology in your research, please cite the following works:
 
-* **Lampani et al.** – *Neural-network CME transit time prediction using the Extended Drag-Based Model (EDBM)*
+* **Lampani et al. (2025)** – *Predicting coronal mass ejection travel times using enhanced model-guided machine learning*
   https://arxiv.org/abs/2512.19492
 
-* **Rossi et al. (2025)** – *Physics-informed drag-based modeling of CME propagation*
+* **Rossi et al. (2025)** – *Extended drag-based model for better predicting the evolution of coronal mass ejections*
   https://www.aanda.org/articles/aa/full_html/2025/02/aa52288-24/aa52288-24.html
 
