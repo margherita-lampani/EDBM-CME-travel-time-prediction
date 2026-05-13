@@ -54,7 +54,7 @@ The list of the 41 events studied in the Cross-wind (↘) case is reported in th
       <th>Initial Speed [km/s] (v₀)</th>
       <th>Arrival Speed [km/s] (v)</th>
       <th>Mass [g] (m)</th>
-      <th>De-projected width of CME (rad)</th>
+      <th>De-projected width of CME [rad]</th>
       <th>SW Density [cm⁻³] (ρ)</th>
       <th>SW Speed [km/s] (w)</th>
     </tr>
